@@ -1,0 +1,19 @@
+.section-profile{
+    margin-top: 80px;
+}
+.section-profile .section-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+    justify-content: space-around;
+}
+.section-profile .section-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+}   
