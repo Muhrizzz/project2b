@@ -1,5 +1,7 @@
 .section-profile{
     margin-top: 80px;
+    border-bottom: 1px solid white;
+    padding-bottom: 80px;
 }
 .section-profile .section-item{
     display: flex;
@@ -7,13 +9,48 @@
     text-align: center;
     align-items: center;
     padding: 30px;
-    text-align: center;
     height: 400px;
-    justify-content: space-around;
+    justify-content: space-between;
+    min-height: 500px;
 }
-.section-profile .section-item img{
+.section-profile .profile-item img{
     width: 150px;
     height: 150px;
     border-radius: 200px;
     margin-bottom: 30px;
-}   
+}
+.section-profile .profile-item p{
+    height: 100px;
+    overflow-y: hidden;
+}     
+.section-ads .ads-text{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.home-slider .img-slider{
+    width: 100vw;
+    height: 90vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .home-slider .img-slider{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-ads .ads-text{
+        text-align: right;
+        color: #000;
+        margin-top: 0px;
+    }
+}
+.tangga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
